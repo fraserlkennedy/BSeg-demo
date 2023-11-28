@@ -1,6 +1,6 @@
 # BSeg-demo
 
-You will need locally :
+requirements:
 
 ultralyticsplus == 0.0.28
 
@@ -8,16 +8,15 @@ Pillow == 10.1.0
 
 ---
 
-Clone in:
+Clone:
 
 git clone https://github.com/fraserlkennedy/BSeg-demo
 
 cd BSeg-demo
 
+---
 
-Python:
-
-import prediction 
+python import prediction 
 
 prediction.YOLOv8_predict('YOUR-IMAGE-FILENAME.jpeg')
 
